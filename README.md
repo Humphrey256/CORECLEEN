@@ -45,7 +45,3 @@ corecleen/
    ```
 
 2. Open `index.html` in your web browser
-
-## License
-
-MIT License
