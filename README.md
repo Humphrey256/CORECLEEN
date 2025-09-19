@@ -1,17 +1,8 @@
 # CoreCleen - Professional Cleaning Service Landing Page
 
-![CoreCleen Logo](https://img.shields.io/badge/CoreCleen-Professional%20Cleaning-blue?style=for-the-badge&logo=cleaning)
-![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=flat-square)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
 ## 🌟 Overview
 
 **CoreCleen** is a modern, fully-responsive landing page for a professional cleaning service. Built with clean code and cutting-edge web technologies, this project demonstrates professional front-end development skills and best practices.
-
-### 🎯 Live Demo
-[View Live Demo](https://humphrey256.github.io/CORECLEEN/)
 
 ---
 
