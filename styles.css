@@ -1,0 +1,1431 @@
+/* Spread out About, Mission/Vision, Values, Services */
+.about .about-flex {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Small tablet / large phone (676px - 767px): compact 2-column layout */
+@media (min-width: 676px) and (max-width: 767px) {
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+  }
+  .feature-card {
+    width: 100%;
+    padding: 28px 20px;
+    min-height: 200px;
+  }
+  .testimonial-entries {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(340px, 1fr));
+    gap: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+  }
+  .testimonial {
+    padding: 28px 20px;
+    min-height: 220px;
+    width: 100%;
+  }
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+    justify-items: stretch;
+  }
+  .team-member {
+    width: 100%;
+    padding: 20px 16px;
+    min-height: 160px;
+    text-align: center;
+  }
+  .mv-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+  }
+  .mv-item {
+    width: 100%;
+    padding: 20px 16px;
+    text-align: center;
+  }
+  .about .about-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+  .about-main {
+    width: 100%;
+    padding: 24px 18px;
+  }
+  .about-side {
+    width: 100%;
+    padding: 24px 18px;
+  }
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .cta-btn {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+  .mv-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+  .mv-item {
+    width: 100%;
+    padding: 24px 18px;
+    text-align: center;
+  }
+  .mv-block {
+    width: 100%;
+    padding: 32px 22px;
+    min-height: 200px;
+    text-align: left;
+  }
+  .values-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 12px 24px;
+    max-width: 100%;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+    margin: 0 auto;
+  }
+  .values-list li {
+    padding-left: 2.2em;
+    margin-bottom: 12px;
+  }
+  .about .about-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    align-items: start;
+  }
+  .about .about-side {
+    padding: 24px 18px;
+  }
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 16px 20px;
+    max-width: 100%;
+    padding: 0 8px;
+    width: calc(100% - 16px);
+    margin: 0 auto 18px auto;
+    text-align: left;
+  }
+  .contact-list li {
+    padding: 16px 14px;
+  }
+}
+
+/* Specific optimization for 768px tablets (iPad, etc.) */
+@media (min-width: 768px) and (max-width: 768px) {
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(340px, 1fr));
+    gap: 18px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+  .feature-card {
+    width: 100%;
+    padding: 30px 24px;
+    min-height: 210px;
+  }
+  .testimonial-entries {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(360px, 1fr));
+    gap: 18px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+  .testimonial {
+    padding: 30px 24px;
+    min-height: 240px;
+    width: 100%;
+  }
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 18px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    justify-items: stretch;
+  }
+  .team-member {
+    width: 100%;
+    padding: 24px 20px;
+    min-height: 180px;
+    text-align: center;
+  }
+  .mv-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 18px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+  .mv-item {
+    width: 100%;
+    padding: 22px 18px;
+    text-align: center;
+  }
+  .values-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 14px 26px;
+    max-width: 100%;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+  .values-list li {
+    padding-left: 2.2em;
+    margin-bottom: 12px;
+  }
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 18px 22px;
+    max-width: 100%;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    margin: 0 auto 18px auto;
+    text-align: left;
+  }
+  .contact-list li {
+    padding: 18px 16px;
+  }
+  .about .about-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    align-items: start;
+  }
+  .about-main {
+    width: 100%;
+    padding: 28px 20px;
+  }
+  .about-side {
+    width: 100%;
+    padding: 28px 20px;
+  }
+  .hero {
+    padding: 70px 24px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+  .hero p {
+    font-size: 1.15rem;
+    line-height: 1.5;
+  }
+  .cta-btn {
+    padding: 16px 32px;
+    font-size: 1.05rem;
+  }
+}
+
+/* Collapse into side-to-side (horizontal scroll) 'folding' cards on small phones */
+@media (max-width: 675px) {
+  /* Make card containers horizontally scrollable with snap */
+  .feature-cards,
+  .testimonial-entries,
+  .team-members,
+  .values-list,
+  .services-list,
+  .contact-list,
+  .mv-flex,
+  .about .about-flex {
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 6px;
+  }
+
+  /* Each card becomes a horizontally scrollable pane and nearly full-width */
+  .feature-card,
+  .testimonial,
+  .team-member,
+  .mv-block,
+  .values-list li,
+  .services-list li,
+  .contact-list li {
+    flex: 0 0 96%;
+    scroll-snap-align: start;
+    width: auto;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Slight visual spacing inside each card when horizontally scrolled */
+  .feature-card,
+  .testimonial,
+  .team-member,
+  .mv-block,
+  .contact-list li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* Values/services list items look like cards horizontally */
+  .values-list li,
+  .services-list li {
+    padding-left: 1.4em;
+    padding-right: 14px;
+  }
+
+  /* Subtle scrollbar styling for WebKit */
+  .feature-cards::-webkit-scrollbar,
+  .testimonial-entries::-webkit-scrollbar,
+  .team-members::-webkit-scrollbar,
+  .values-list::-webkit-scrollbar,
+  .services-list::-webkit-scrollbar,
+  .contact-list::-webkit-scrollbar {
+    height: 7px;
+  }
+  .feature-cards::-webkit-scrollbar-thumb,
+  .testimonial-entries::-webkit-scrollbar-thumb,
+  .team-members::-webkit-scrollbar-thumb,
+  .values-list::-webkit-scrollbar-thumb,
+  .services-list::-webkit-scrollbar-thumb,
+  .contact-list::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.12);
+    border-radius: 6px;
+  }
+  /* Ensure container spans full width on small screens to avoid large right gutter */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+/* Tablet (769px - 1024px) rules removed from here and reinserted at the end of the file for proper cascade */
+.about .about-main {
+  flex: 1.5;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.about .about-side {
+  flex: 1.2;
+  background: #f4f4f4;
+  border-radius: 12px;
+  padding: 24px 18px;
+  margin-top: 0;
+}
+.mission-vision .mv-flex {
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.mv-block {
+  flex: 1;
+  min-width: 280px;
+}
+.values-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 32px;
+  max-width: 1400px;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 32px;
+  columns: unset;
+  max-width: 1400px;
+}
+@media (max-width: 1024px) {
+  .about .about-flex, .mission-vision .mv-flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .values-list {
+    display: block !important;
+    grid-template-columns: none !important;
+    max-width: 100%;
+    padding: 0 20px;
+    gap: 0;
+  }
+  .values-list li {
+    display: block !important;
+    margin-bottom: 18px;
+    padding-left: 2em;
+    font-size: 1rem;
+    width: 100%;
+  }
+  .services-list {
+    display: block !important;
+    grid-template-columns: none !important;
+    max-width: 100%;
+    padding: 0 20px;
+    gap: 0;
+  }
+  .services-list li {
+    display: block !important;
+    margin-bottom: 16px;
+    padding-left: 2em;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .values-list {
+    display: block !important;
+    grid-template-columns: none !important;
+    max-width: 100%;
+    padding: 0 20px;
+    gap: 0;
+  }
+  .values-list li {
+    display: block !important;
+    margin-bottom: 18px;
+    padding-left: 2em;
+    font-size: 1rem;
+    width: 100%;
+  }
+  .services-list {
+    display: block !important;
+    grid-template-columns: none !important;
+    max-width: 100%;
+    padding: 0 20px;
+    gap: 0;
+  }
+  .services-list li {
+    display: block !important;
+    margin-bottom: 16px;
+    padding-left: 2em;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+/* About Section */
+.about {
+  background: #fff;
+  padding: 60px 0 50px 0;
+}
+.about h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+}
+.about .about-flex {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about .about-main {
+  flex: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: left;
+  color: #444;
+}
+.about .about-main p {
+  margin: 0;
+  font-weight: 400;
+}
+.about .about-side {
+  flex: 1.2;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+  padding: 30px 25px;
+  margin-top: 0;
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12), 4px 4px 16px rgba(0,0,0,0.08);
+}
+.about .about-side h3 {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.about .about-side ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.about .about-side li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.about .about-side strong {
+  color: var(--primary);
+  font-weight: 600;
+}
+.about .about-side a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.about .about-side a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Enhanced shadow effect for business profile */
+.about .about-side {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.about .about-side:hover {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.16), 6px 6px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  background: #f9f9f9;
+  padding: 40px 0 24px 0;
+}
+.mv-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mv-block {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  border: 2px solid #e0e0e0;
+  padding: 40px 30px;
+  width: 340px;
+  max-width: 95vw;
+  margin-bottom: 18px;
+  text-align: left;
+}
+.mv-block h3 {
+  color: var(--primary);
+  margin-top: 0;
+}
+.mv-block p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Values Section */
+.values {
+  background: #fff;
+  padding: 40px 0 24px 0;
+}
+.values h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 18px;
+}
+.values-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 60px;
+}
+.values-list li {
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  padding-left: 2.5em;
+  position: relative;
+  text-align: left;
+}
+.values-list li:before {
+  content: "✓";
+  color: var(--primary);
+  position: absolute;
+  left: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  top: -2px;
+}
+
+/* Services Section */
+.services {
+  background: #f9f9f9;
+  padding: 40px 0 24px 0;
+}
+.services h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 18px;
+}
+.services-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px 60px;
+}
+.services-list li {
+  margin-bottom: 14px;
+  font-size: 1.05rem;
+  padding-left: 2.5em;
+  position: relative;
+  text-align: left;
+}
+.services-list li:before {
+  content: "●";
+  color: var(--primary);
+  position: absolute;
+  left: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  top: -1px;
+}
+
+/* Team Section */
+.team {
+  background: #fff;
+  padding: 40px 0 24px 0;
+}
+.team h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 18px;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}
+.team-member {
+  background: #f4f4f4;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border: 2px solid #d0d0d0;
+  padding: 24px 18px;
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+}
+.team-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.team-member h4 {
+  margin: 10px 0 4px 0;
+  color: var(--primary);
+}
+.team-member p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+  background: #fff;
+  padding: 60px 0 40px 0;
+}
+.contact h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+}
+.contact-list {
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 40px;
+  text-align: center;
+}
+.contact-list li {
+  padding: 30px 25px;
+  transition: transform 0.3s ease;
+}
+.contact-list li:hover {
+  transform: translateY(-3px);
+}
+.contact-list li strong {
+  display: block;
+  color: var(--primary);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.contact-list li a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact-list li a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  .mv-flex, .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mv-block, .team-member {
+    width: 90%;
+    max-width: 400px;
+  }
+  .contact-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .testimonial {
+    width: 90%;
+    max-width: 500px;
+  }
+  .services-list {
+    columns: 1 300px;
+  }
+}
+
+/* Tablet: make cards larger and spread them to balance the page removed (re-inserted later) */
+/* CoreCleen Landing Page Styles */
+:root {
+  --primary: #1a73e8; /* Modern blue - more accessible and professional */
+  --secondary: #e8f4fd; /* Light blue tint - fresh and clean */
+  --accent: #34a853; /* Bright green accent for eco-friendly feel */
+  --primary-dark: #1557b0; /* Darker blue for hover states */
+  --primary-light: #4285f4; /* Lighter blue for highlights */
+  --text-dark: #202124; /* Dark text for readability */
+  --text-light: #5f6368; /* Light text for secondary content */
+  --font: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: #f9f9f9;
+  color: #222;
+}
+.container {
+  width: 92%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.hero {
+  background: var(--primary);
+  color: #fff;
+  padding: 80px 0 60px 0;
+  text-align: center;
+}
+.hero .cta-btn {
+  background: var(--secondary);
+  color: #222;
+  border: none;
+  padding: 16px 36px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background 0.2s, color 0.2s;
+}
+.hero .cta-btn:hover {
+  background: #fff;
+  color: var(--primary);
+}
+.subtitle {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.features {
+  background: #fff;
+  padding: 60px 0;
+}
+.features h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 40px;
+}
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  align-items: stretch;
+}
+.feature-card {
+  background: #f4f4f4;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border: 2px solid #d0d0d0;
+  padding: 32px 24px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+.feature-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+}
+.testimonials {
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+.testimonials h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+}
+.testimonial-entries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.testimonial {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  border: 2px solid #e0e0e0;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+.testimonial-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid var(--secondary);
+}
+.testimonial blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: #555;
+}
+.reviewer {
+  font-weight: bold;
+  color: var(--primary);
+  margin-top: 10px;
+}
+footer {
+  background: var(--primary);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+footer a {
+  color: var(--secondary);
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+footer a:hover {
+  color: #fff;
+}
+.social-links {
+  margin: 16px 0;
+}
+.social-link img {
+  width: 28px;
+  height: 28px;
+  margin: 0 6px;
+  vertical-align: middle;
+  filter: brightness(1) invert(0);
+  transition: filter 0.2s;
+}
+.social-link:hover img {
+  filter: brightness(1.2) invert(0) sepia(1) saturate(2) hue-rotate(30deg);
+}
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+}
+.modal.open {
+  display: flex;
+}
+.modal-content {
+  background: #fff;
+  padding: 36px 28px;
+  border-radius: 16px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  text-align: center;
+}
+.close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 2rem;
+  color: var(--primary);
+  cursor: pointer;
+}
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 18px;
+}
+.modal-content input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.modal-content button[type="submit"] {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.modal-content button[type="submit"]:hover {
+  background: var(--secondary);
+  color: #222;
+}
+/* Scroll to Top Button */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1100;
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  opacity: 0.9;
+}
+#scrollToTopBtn:hover {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  opacity: 1;
+}
+#scrollToTopBtn:active {
+  transform: translateY(0);
+}
+
+/* Subtle animation when button appears */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
+}
+
+#scrollToTopBtn.show {
+  animation: fadeInUp 0.3s ease-out;
+}
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .feature-cards, .testimonial-entries {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-card, .testimonial {
+    width: 90%;
+    max-width: 400px;
+  }
+  .modal-content {
+    padding: 28px 20px;
+    width: 90%;
+    max-width: 380px;
+  }
+  .modal-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+  }
+  .modal-content form {
+    gap: 16px;
+  }
+  .modal-content input {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .modal-content button[type="submit"] {
+    padding: 14px 0;
+    font-size: 1.05rem;
+  }
+}
+@media (max-width: 600px) {
+  .hero {
+    padding: 48px 0 32px 0;
+  }
+  .features, .testimonials {
+    padding: 32px 0;
+  }
+  .modal-content {
+    padding: 20px 12px;
+    width: 95%;
+    max-width: 320px;
+    margin: 10px;
+  }
+  .modal-content h2 {
+    font-size: 1.3rem;
+    margin-bottom: 14px;
+  }
+  .modal-content form {
+    gap: 12px;
+    margin-top: 14px;
+  }
+  .modal-content input {
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+  .modal-content button[type="submit"] {
+    padding: 12px 0;
+    font-size: 0.95rem;
+    border-radius: 6px;
+  }
+  .close {
+    top: 12px;
+    right: 16px;
+    font-size: 1.6rem;
+  }
+  
+  /* Back to top button - mobile optimization */
+  #scrollToTopBtn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablet (769px - 1024px): enlarge cards and spread them to balance page */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 24px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+  }
+  .feature-card {
+    width: 100%;
+    padding: 36px 28px;
+    min-height: 220px;
+  }
+  .testimonial-entries {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(340px, 1fr));
+    gap: 24px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+  }
+  .testimonial {
+    padding: 36px 28px;
+    min-height: 260px;
+    width: 100%;
+  }
+  /* Team cards: spread and enlarge on tablets */
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 24px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    justify-items: stretch;
+  }
+  .team-member {
+    width: 100%;
+    padding: 28px 20px;
+    min-height: 180px;
+    text-align: center;
+  }
+  /* About section: place main + aside side-by-side on tablets like cards */
+  .about .about-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 28px;
+    max-width: 100%;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+    align-items: start;
+  }
+  .about .about-side {
+    padding: 30px 22px;
+  }
+  /* Contact: convert contact list to 2 columns on tablets so each contact card stretches */
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 24px 32px;
+    max-width: 100%;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    margin: 0 auto 24px auto;
+    text-align: left;
+  }
+  .contact-list li {
+    padding: 24px 20px;
+  }
+  /* Mission & Vision: arrange as two columns on tablets */
+  .mv-flex {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 28px;
+    max-width: 100%;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+  .mv-block {
+    width: 100%;
+    padding: 40px 30px;
+    min-height: 220px;
+    text-align: left;
+  }
+  /* Values: spread into two columns and let items breathe */
+  .values-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 18px 40px;
+    max-width: 100%;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+  .values-list li {
+    padding-left: 2.5em;
+    margin-bottom: 14px;
+  }
+}
+
+/* Narrow tablet fixes (769px - 900px): tune layout for iPad Air and similar */
+@media (min-width: 769px) and (max-width: 900px) {
+  .container {
+    width: 94%;
+    max-width: 94%;
+    margin: 0 auto;
+  }
+  .feature-cards {
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .feature-card { padding: 32px 20px; }
+  .testimonial-entries { grid-template-columns: repeat(2, minmax(280px, 1fr)); gap: 20px; padding: 0 10px; }
+  .testimonial { padding: 32px 20px; min-height: 220px; }
+  .team-members { grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 18px; padding: 0 10px; }
+  .about .about-flex { grid-template-columns: repeat(2, minmax(240px, 1fr)); padding: 0 10px; }
+  .mv-flex { grid-template-columns: repeat(2, minmax(240px, 1fr)); gap: 20px; padding: 0 10px; }
+  .values-list { grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 16px 32px; padding: 0 10px; }
+  .contact-list { grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 18px 24px; padding: 0 10px; }
+}
+
+/* Google Nest Hub and similar smart displays (1025px - 1280px): optimized for wide aspect ratio */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    width: 96%;
+    max-width: 96%;
+    margin: 0 auto;
+  }
+  
+  /* Feature cards: maintain 3 columns but with better spacing */
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .feature-card {
+    padding: 24px 18px;
+    min-height: 180px;
+  }
+  
+  /* Testimonials: 3 columns for better use of width */
+  .testimonial-entries {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .testimonial {
+    padding: 24px 18px;
+    min-height: 200px;
+  }
+  
+  /* Team members: 4 columns to utilize width effectively */
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 18px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-items: stretch;
+  }
+  .team-member {
+    padding: 20px 15px;
+    min-height: 160px;
+    text-align: center;
+  }
+  
+  /* About section: keep side-by-side layout but optimize spacing */
+  .about .about-flex {
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+  .about .about-main {
+    flex: 1.5;
+  }
+  .about .about-side {
+    flex: 1.2;
+    padding: 20px 16px;
+    max-width: 320px; /* Prevent the card from becoming too wide */
+  }
+  
+  /* Business profile card optimizations for Nest Hub */
+  .about .about-side h3 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  .about .about-side li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  .about .about-side ul {
+    margin: 0;
+  }
+  
+  /* Mission & Vision: side-by-side with better spacing */
+  .mv-flex {
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .mv-block {
+    flex: 1;
+    padding: 32px 24px;
+    min-height: 180px;
+  }
+  
+  /* Values: 3 columns for better distribution */
+  .values-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 30px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .values-list li {
+    padding-left: 2.2em;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  /* Services: 3 columns for better organization */
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 30px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .services-list li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  /* Contact: 3 columns to make better use of width */
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto 24px auto;
+    text-align: center;
+  }
+  .contact-list li {
+    padding: 20px 15px;
+  }
+}
+
+/* Additional optimizations for devices with limited height (like Nest Hub 600px height) */
+@media (min-width: 1025px) and (max-width: 1280px) and (max-height: 700px) {
+  /* Reduce section padding to fit more content */
+  .hero {
+    padding: 40px 0 30px 0;
+  }
+  .about, .team, .contact {
+    padding: 30px 0 20px 0;
+  }
+  .mission-vision, .values, .services {
+    padding: 25px 0 15px 0;
+  }
+  
+  /* Reduce hero text size slightly */
+  .hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+  }
+  .hero .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Compact card heights */
+  .feature-card {
+    min-height: 150px;
+    padding: 20px 15px;
+  }
+  .testimonial {
+    min-height: 170px;
+    padding: 20px 15px;
+  }
+  .team-member {
+    min-height: 140px;
+    padding: 16px 12px;
+  }
+  .mv-block {
+    min-height: 150px;
+    padding: 24px 18px;
+  }
+  
+  /* Smaller section headings */
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
